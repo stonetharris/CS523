@@ -12,7 +12,7 @@ def compute_a(x, W1):
 
 # loss function that we want to minimize
 def loss_function(params, x1, x2, x3):
-    W1 = params[:12].reshape((4, 3))  
+    W1 = params[:12].reshape((4, 3)) 
     W2 = params[12:].reshape((3, 4)) 
     a1 = compute_a(x1, W1)
     a2 = compute_a(x2, W1)
