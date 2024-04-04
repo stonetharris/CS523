@@ -1,0 +1,27 @@
+[
+    {
+        "seq_length": 10,
+        "hidden_dim": 32,
+        "num_layers": 2,
+        "lr": 0.01,
+        "num_epochs": 1000,
+        "training_loss": 0.0,
+        "test_loss": 0.0,
+        "timestamp": "2024-04-03 21:49:41",
+        "prices": [
+            5276.46,
+            5277.13,
+            5276.67,
+            5276.94,
+            5276.58,
+            5276.42,
+            5276.28,
+            5275.99,
+            5275.8,
+            5275.6
+        ],
+        "interval": "1h",
+        "train length": "24.0 days",
+        "Average dollar ammount off on validation": 8.61
+    }
+]
