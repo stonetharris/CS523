@@ -20,7 +20,7 @@ train_length = f"{.8*30} days"
 input_dim = 1
 output_dim = 1
 
-filename = "2024-04-03 14:09:36.731368.csv"
+filename = "2024-04-17 11:28:42.786994.csv"
 df = pd.read_csv(f"data/{filename}")
 
 scaler = MinMaxScaler()

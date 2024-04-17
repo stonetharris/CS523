@@ -14,7 +14,7 @@ ib.reqMarketDataType(3)
 
 historical_data = ib.reqHistoricalData(
     contract, endDateTime='', durationStr='30 D',
-    barSizeSetting='1 hour', whatToShow='MIDPOINT', useRTH=True)
+    barSizeSetting='2 mins', whatToShow='MIDPOINT', useRTH=True)
 
 df = util.df(historical_data)
 # print(df)
