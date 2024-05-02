@@ -9,11 +9,11 @@ import pandas as pd
 
 # hyperparemeters ---- tune these
 seq_length = 10
-hidden_dim = 32  # try 8,16,32,64
+hidden_dim = 64  # try 8,16,32,64
 num_layers = 2
 lr = 0.01  # try 3e-4
 num_epochs = 1_000  # try 1_000
-interval = "1h"
+interval = "2min"
 train_length = f"{.8*30} days"
 
 # variables
